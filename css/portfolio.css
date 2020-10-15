@@ -41,9 +41,9 @@
 
 .project-card {
     padding: 20px 24px;
-    border-right: 1px solid #eeeeee;
-    border-bottom: 1px solid #eeeeee;
-    border-left: 1px solid #eeeeee; 
+    border-right: 1px solid var(--project-link-color);
+    border-bottom: 1px solid var(--project-link-color);
+    border-left: 1px solid var(--project-link-color); 
 }
 
 .project-link {
@@ -151,7 +151,6 @@ overflow: hidden;
 
 .btn-secondary {
     display: inline-block;
-    border-radius: 4px;
     padding: 6px 22px;
     min-width: 73px;
 
@@ -159,9 +158,6 @@ overflow: hidden;
     background-color: var(--secondary-bg-color);
     border: 1px solid transparent;
 
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
     line-height: 1.62;
     text-align: center;
     text-decoration: none;

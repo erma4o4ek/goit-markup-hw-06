@@ -16,39 +16,42 @@
   <h1 class="visually-hidden">Шапка сайта</h1>
   <!--top line-->
   <header class="page-header">
-    <!--main heading-->
-    <div class="container">
+    <div class="container flex">
       <nav class="page-nav flexbox">
         <!-- logo -->
-        <a href="#" class="logo"><span class="logo third">Web</span><span class="logo primary">Studio</span></a>
+        <a href="./index.html" class="logo"><span class="logo third">Web</span><span
+            class="logo primary">Studio</span></a>
         <!--menu-nav-->
         <ul class="site-navigation-list list flexbox">
-          <li class="site-navigation-item"><a href="./index.html" class="site-navigation-link">Студия</a></li>
-          <li class="site-navigation-item"><a href="#" class="site-navigation-link current">Портфолио</a></li>
-          <li class="site-navigation-item"><a href="#" class="site-navigation-link">Контакты</a></li>
+          <li class="site-navigation-item"><a href="./index.html" class="site-navigation-link link">Студия</a></li>
+          <li class="site-navigation-item"><a href="" class="site-navigation-link current link">Портфолио</a></li>
+          <li class="site-navigation-item"><a href="#" class="site-navigation-link link">Контакты</a></li>
         </ul>
-        <!--contact-->
+      </nav>
+      <!--contact-->
+      <address class="contact-header">
         <ul class="contact-list list flexbox">
           <li class="contact-item">
-            <a href="mailto:info@devstudio.com" class="contact-link">
-              <svg class="mail-icon">
+            <a href="mailto:info@devstudio.com" class="contact-link link">
+              <svg class="mail-icon" width="16" height="12">
                 <use href="./images/icons/sprite.svg#envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
           <li class="contact-item">
-            <a href="tel:+380961111111" class="contact-link">
-              <svg class="phone-icon">
+            <a href="tel:+380961111111" class="contact-link link">
+              <svg class="phone-icon" width="10" height="16">
                 <use href="./images/icons/sprite.svg#smartphone"></use>
               </svg>
               +38 (096) 111 11 11
             </a>
           </li>
         </ul>
-      </nav>
+      </address>
     </div>
   </header>
+
 
   <main>
     <!--Верхняя строка меню-->
@@ -60,19 +63,19 @@
             <!--menu-nav-->
             <ul class="menu-list list flexbox">
               <li class="menu-item">
-                <button class="btn-secondary">Все</button>
+                <button class="button btn-secondary">Все</button>
               </li>
               <li class="menu-item">
-                <button class="btn-secondary">Веб-сайты</button>
+                <button class="button btn-secondary">Веб-сайты</button>
               </li>
               <li class="menu-item">
-                <button class="btn-secondary">Приложения</button>
+                <button class="button btn-secondary">Приложения</button>
               </li>
               <li class="menu-item">
-                <button class="btn-secondary">Дизайн</button>
+                <button class="button btn-secondary">Дизайн</button>
               </li>
               <li class="menu-item">
-                <button class="btn-secondary">Маркетинг</button>
+                <button class="button btn-secondary">Маркетинг</button>
               </li>
             </ul>
           </div>
@@ -289,6 +292,7 @@
     </div>
   </main>
 
+      <!--footer-->
   <footer class="page-footer fon">
 
     <div class="container flexbox footer-content">
@@ -297,9 +301,9 @@
             class="logo secondary">Studio</span>
         </a>
         <address class="location-footer flexbox">
-          <p class="location-address">г. Киев, пр-т Леси Украинки, 26</p>
-          <a href="mailto:info@example.com" class="contact-link-footer">info@example.com</a>
-          <a href=" tel:+380991111111" class="contact-link-footer">+38 099 111 11 11</a>
+          <p class="location-address link">г. Киев, пр-т Леси Украинки, 26</p>
+          <a href="mailto:info@example.com" class="contact-link-footer link">info@example.com</a>
+          <a href=" tel:+380991111111" class="contact-link-footer link">+38 099 111 11 11</a>
         </address>
       </div>
 
@@ -340,7 +344,7 @@
       <form class="footer-form">
         <h3 class="footer-title-form">Подпишитесь на рассылку</h3>
         <input type="email" name="user-email" class="footer-input" placeholder="E-mail" />
-        <button type="submit" class="btn-footer">Подписаться</button>
+        <button type="submit" class=" button btn-footer">Подписаться</button>
       </form>
     </div>
   </footer>

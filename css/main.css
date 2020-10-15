@@ -29,7 +29,6 @@
     background-position: center;
     background-size: cover;
 
-    font-family: inherit;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -81,9 +80,7 @@
     margin-bottom: 10px;
     color: var(--title-text-color);
 
-    font-family: inherit;
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
@@ -94,9 +91,7 @@
 
     color: var(--primary-text-color);
 
-    font-family: inherit;
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
 }
 
@@ -138,8 +133,6 @@
 
 
     color: var(--title-text-color);
-
-    font-family: inherit;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -157,12 +150,6 @@
 
 .work-item:nth-child(3n) {
     margin-right: 0px;
-}
-
-.image {
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 .work-thumb {
@@ -198,10 +185,7 @@
     left:50%;
     transform: translate(-51.3%, 90%);
 
-    font-family: Roboto;
     font-weight: 700;
-    font-style: normal;
-    font-size: 14px;
     line-height: 1.64;
     text-align: center;
 
@@ -221,12 +205,9 @@
     margin-bottom: 50px;
 
     color: var(--title-text-color);
-
-    font-family: inherit;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03em;
     text-align: center;
 }
 
@@ -255,7 +236,6 @@
 
     color: var(--title-text-color);
 
-    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -267,8 +247,6 @@
     margin-bottom: 30px;
     color: var(--primary-text-color);
 
-    font-family: Roboto;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -324,7 +302,6 @@ justify-content: center;
 
     color: var(--title-text-color);
 
-    font-family: inherit;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -379,21 +356,15 @@ justify-content: center;
 
 .btn-primary {
     display: inline-block;
-    border-radius: 4px;
     padding: 10px 32px;
     
 
-    color: var(--text-color);
-    background-color: var(--primary-bg-color);
     border: 1px solid transparent;
 
-    font-family: inherit;
-
     font-weight: 700;
-    font-size: 16px;
     line-height: 1.9;
     text-align: center;
-    letter-spacing: 0.06em;
+
     text-decoration: none;
     text-align: center;
 }
@@ -411,7 +382,6 @@ justify-content: center;
 
     background-color: var(--backdrop-color);
     opacity: 1;
-
 
     transform: translate(-50% -50%); 
     transition: opacity 250ms var(--transition-time);
@@ -484,12 +454,9 @@ justify-content: center;
 
 /* заголовок form */
 .modal-title {
-    font-family: inherit;
     font-weight: 700;
-    font-style: normal;
     font-size: 20px;
     line-height: 1.15;
-    letter-spacing: 0.03em;
     text-align: center;
 
     color: var(--title-text-color);
@@ -573,7 +540,6 @@ justify-content: center;
 }
 
 .comment-textarea::placeholder {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.01em;
@@ -637,19 +603,14 @@ justify-content: center;
     margin-right: auto;
     padding: 10px 55px;
 
-    color: var(--text-color);
     background-color: var(--btn-form-color);
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
     border-width: 0;
 
     font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-
+   
     cursor: pointer;
 
 }
